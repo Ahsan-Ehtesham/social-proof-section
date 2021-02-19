@@ -9,17 +9,15 @@
 }
 
 body {
-  font-family: "Spartan", sans-serif;
+  font-family: "Spartan", sans-serif !important;
+  background-image: url("images/bg-pattern-top-desktop.svg");
+  background-position: top left;
+  background-repeat: no-repeat;
 }
 
-.row {
-  display: flex;
+.container {
+  margin-top: 5vw;
 }
-
-.column {
-  flex: 50%;
-}
-
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
@@ -29,13 +27,14 @@ body {
 
 #head {
   color: var(--very-dark-magenta);
+  font-weight: bold;
 }
 
 #para {
   color: var(--dark-grayish-magenta);
 }
 
-ul {
+/* ul {
   list-style: none;
   width: fit-content;
   padding: 15px 50px 15px 50px;
@@ -66,4 +65,58 @@ li,
   padding: 0px 0 3px 24px;
   color: var(--very-dark-magenta);
   font-weight: bold;
+} */
+
+.reviews {
+  margin-left: 20%;
+}
+
+#item-1 {
+  width: fit-content;
+  padding: 15px 50px 15px 50px;
+  border-radius: 10px;
+  background-color: var(--light-grayish-magenta);
+  color: var(--very-dark-magenta);
+  font-weight: bold;
+}
+
+.icon {
+  background: url("images/icon-star.svg") no-repeat left top;
+  float: left;
+  margin: 2px 5px 0 0;
+  height: 20px;
+  width: 20px;
+  display: block;
+}
+
+#item-2 {
+  width: fit-content;
+  margin-top: 20px;
+  margin-left: 50px;
+  padding: 15px 50px 15px 50px;
+  border-radius: 10px;
+  background-color: var(--light-grayish-magenta);
+  color: var(--very-dark-magenta);
+  font-weight: bold;
+}
+
+#item-3 {
+  width: fit-content;
+  margin-top: 20px;
+  margin-left: 100px;
+  padding: 15px 50px 15px 50px;
+  border-radius: 10px;
+  background-color: var(--light-grayish-magenta);
+  color: var(--very-dark-magenta);
+  font-weight: bold;
+}
+
+.image {
+  background: url("images/image-colton.jpg") no-repeat left top;
+  float: left;
+  margin: 2px 5px 0 0;
+  border-radius: 50%;
+  width: max-content;
+  height: max-content;
+  display: block;
 }
