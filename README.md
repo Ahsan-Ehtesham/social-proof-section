@@ -3,9 +3,10 @@
 ![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)
 
 ![Coding Done by Ahsan Ehtesham](./images/AE-web-logo.png)
+
 To support me:
-![https://github.com/Ahsan-Ehtesham]
-![https://www.linkedin.com/in/ahsan-ehtesham-a6810018b/]
+![Github](https://github.com/Ahsan-Ehtesham)
+![Linkedin](https://www.linkedin.com/in/ahsan-ehtesham-a6810018b/)
 
 ## Welcome! 👋
 
