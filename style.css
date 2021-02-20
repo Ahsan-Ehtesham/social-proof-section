@@ -81,7 +81,7 @@ li,
   font-weight: bold;
 }
 
-#icon {
+.icon {
   background: url("images/icon-star.svg") no-repeat left top;
   float: left;
   margin: 2px 5px 0 0;
