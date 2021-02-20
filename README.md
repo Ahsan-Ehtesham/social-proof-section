@@ -2,6 +2,11 @@
 
 ![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)
 
+![Coding Done by Ahsan Ehtesham](./images/AE-web-logo.png)
+To support me:
+![https://github.com/Ahsan-Ehtesham]
+![https://www.linkedin.com/in/ahsan-ehtesham-a6810018b/]
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
@@ -68,3 +73,5 @@ Feedback is always welcome, so if you have any to give on this challenge please 
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+
+
