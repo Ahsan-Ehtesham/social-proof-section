@@ -10,9 +10,10 @@
 
 body {
   font-family: "Spartan", sans-serif !important;
-  background-image: url("images/bg-pattern-top-desktop.svg");
-  background-position: top left;
-  background-repeat: no-repeat;
+  background-image: url("images/bg-pattern-top-desktop.svg"), url("/images/bg-pattern-bottom-desktop.svg");
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  padding: 15px;
 }
 
 .container {
@@ -68,11 +69,11 @@ li,
 } */
 
 .reviews {
-  margin-left: 20%;
+  margin-left: 15%;
 }
 
 #item-1 {
-  width: fit-content;
+  width: 75%;
   padding: 15px 50px 15px 50px;
   border-radius: 10px;
   background-color: var(--light-grayish-magenta);
@@ -80,7 +81,7 @@ li,
   font-weight: bold;
 }
 
-.icon {
+#icon {
   background: url("images/icon-star.svg") no-repeat left top;
   float: left;
   margin: 2px 5px 0 0;
@@ -90,9 +91,9 @@ li,
 }
 
 #item-2 {
-  width: fit-content;
+  width: 75%;
   margin-top: 20px;
-  margin-left: 50px;
+  margin-left: 60px;
   padding: 15px 50px 15px 50px;
   border-radius: 10px;
   background-color: var(--light-grayish-magenta);
@@ -101,9 +102,9 @@ li,
 }
 
 #item-3 {
-  width: fit-content;
+  width: 75%;
   margin-top: 20px;
-  margin-left: 100px;
+  margin-left: 120px;
   padding: 15px 50px 15px 50px;
   border-radius: 10px;
   background-color: var(--light-grayish-magenta);
@@ -111,12 +112,70 @@ li,
   font-weight: bold;
 }
 
+.card{
+  padding: 20px 20px 20px 20px;
+  border-radius: 2% !important;
+  background-color: var(--very-dark-magenta) !important;
+}
+
+.name{
+  margin-top: 15px;
+  margin-left:100px;
+}
+
+.card-title{
+  color: var(--white);
+}
+
+.card-subtitle{
+  color: var(--soft-pink);
+}
+
+.card-text{
+  color: var(--white);
+}
+
 .image {
   background: url("images/image-colton.jpg") no-repeat left top;
   float: left;
   margin: 2px 5px 0 0;
   border-radius: 50%;
-  width: max-content;
-  height: max-content;
+  width: 70px;
+  height: 70px;
+  display: block;
+}
+
+.card-1{
+  padding: 20px 20px 20px 20px;
+  margin: 20px 10px 0 0px;
+  border-radius: 2% !important;
+  background-color: var(--very-dark-magenta) !important;
+}
+
+.image-1 {
+  background: url("images/image-irene.jpg") no-repeat left top;
+  float: left;
+  margin: 2px 5px 0 0;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: block;
+}
+
+.card-2{
+  padding: 20px 20px 20px 20px;
+  margin: 40px 10px 0 0px;
+  border-radius: 2% !important;
+  background-color: var(--very-dark-magenta) !important;
+}
+
+
+.image-2 {
+  background: url("images/image-anne.jpg") no-repeat left top;
+  float: left;
+  margin: 2px 5px 0 0;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
   display: block;
 }
